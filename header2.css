@@ -1,0 +1,88 @@
+html {
+    font-family: sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: block;
+    padding: 120px 0;
+    color: #fff;
+    overflow: hidden;
+}
+
+.personal-info {
+    background-image: url("backgr3.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+header h2 {
+    font-weight: normal;
+    margin-top: 5px;
+    margin-left: 140px;
+}
+
+header h1 {
+    margin: 0;
+    margin-left: 140px;
+}
+
+header .social-media {
+    overflow: hidden;
+    list-style-type: none;
+    padding: 0;
+    margin-top: 0;
+}
+
+h1 {
+    font-size: 2em;
+    margin: 0.67em 0;
+}
+
+h1,
+h2,
+h3 {
+    line-height: 1.4em;
+    font-size: 36px;
+}
+
+h2 {
+    font-weight: bold;
+    font-size: 28px;
+    color: darkgrey;
+}
+
+.social-media {
+    margin-left: 130px;
+    list-style: none;
+}
+
+.social-media li i {
+    color: white;
+    font-size: 26px;
+}
+
+.social-media .btn i:hover {
+    color: #2C6A93;
+}
+
+.social-media .btn2 i:hover {
+    color: darkgrey;
+}
+
+.social-media .btn3 i:hover {
+    color: #00B6F1;
+}
+
+.btn,
+.btn2,
+.btn3 {
+    display: inline-block;
+    width: 20px;
+    margin: 10px;
+}
