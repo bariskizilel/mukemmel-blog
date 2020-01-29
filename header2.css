@@ -10,15 +10,16 @@ body {
 header {
     display: block;
     padding: 120px 0;
-    color: #fff;
+    color: white;
     overflow: hidden;
 }
 
 .personal-info {
-    background-image: url("backgr3.jpg");
+    background-image: url(backgr3.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    opacity: 0.85;
 }
 
 header h2 {
@@ -45,8 +46,7 @@ h1 {
 }
 
 h1,
-h2,
-h3 {
+h2 {
     line-height: 1.4em;
     font-size: 36px;
 }
@@ -54,7 +54,7 @@ h3 {
 h2 {
     font-weight: bold;
     font-size: 28px;
-    color: darkgrey;
+    color: white;
 }
 
 .social-media {
